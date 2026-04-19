@@ -4,6 +4,13 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.5-rc · 2026-04-20
+- Add: Backend crossfade via dual mpv instances — EQ and crossfade now stay on the lossless mpv path instead of falling back to Web Audio
+- Add: Gapless playback between tracks when mpv is active and exclusive mode is off
+- Add: HI-RES badge tier — shows when exclusive mode is on with lossless source and DSP (EQ or volume change) active
+- Change: Crossfade no longer forces a switch to the Web Audio API — lossless output is preserved throughout
+- Change: Web Audio AudioContext now matches the source sample rate to avoid browser resampling of hi-res files
+
 ## v0.5-rc · 2026-04-19
 
 ## v0.5-rc · 2026-04-19
