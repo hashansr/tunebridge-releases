@@ -7,6 +7,8 @@
 ## v0.5-rc · 2026-04-19
 
 ## v0.5-rc · 2026-04-19
+
+## v0.5-rc · 2026-04-19
 - Fix: bash 3.2 incompatibility in build script (replaced ^^ with tr)
 - Add: CHANGELOG.md published to tunebridge-releases with every DMG build
 - Add: Release notes prompt during interactive build menu
