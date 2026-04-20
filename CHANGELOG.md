@@ -5,6 +5,11 @@
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
 ## v0.6-rc · 2026-04-20
+- Fix: App crash (SIGSEGV in libmpv) during crossfade — eliminated use-after-free race between mpv property reads and instance teardown by holding locks for full read duration
+- Add: Gear → DAP detail now includes “Sync All Playlists” to export all out-of-sync playlists in one action
+- Add: Sync Music step 3 now includes out-of-sync playlist selection, allowing tracks and playlists to be synced in one workflow
+
+## v0.6-rc · 2026-04-20
 - Fix: AP80 sync scan now canonicalizes Unicode/diacritics/apostrophes in path matching to prevent false “present on device only” results (e.g. `Mötley` vs `Motley`, `C’mon` vs `Cmon`)
 
 ## v0.6-rc · 2026-04-20
