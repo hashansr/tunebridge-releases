@@ -4,7 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
-## v0.6-rc · 2026-04-20
+## v0.6-rc · 2026-04-21
+- Change: Missing Tags editor now uses the universal navigation back flow and removes the duplicate in-page back button
+- Add: Inline per-row tag editing in Missing Tags table with in-place save for missing fields (title/artist/album/year/genre)
 
 ## v0.6-rc · 2026-04-20
 - Fix: App crash (SIGSEGV in libmpv) during crossfade — eliminated use-after-free race between mpv property reads and instance teardown by holding locks for full read duration
