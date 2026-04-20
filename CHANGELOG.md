@@ -5,17 +5,24 @@
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
 ## v0.6-rc · 2026-04-20
+- Fix: Playlist empty-state icon now renders centered in full-cover mode in both playlist grid and detail views
+- Change: Increased empty-state SVG scale for playlist and album placeholders to better match card proportions
+
+## v0.6-rc · 2026-04-20
 - Add: Backend crossfade via dual mpv instances — EQ and crossfade now stay on the lossless mpv path instead of falling back to Web Audio
 - Add: Gapless playback between tracks when mpv is active and exclusive mode is off
 - Add: HI-RES badge tier — shows when exclusive mode is on with lossless source and DSP (EQ or volume change) active
+- Add: Native macOS media key integration for Play/Pause, Next, and Previous controls
+- Add: Dedicated Insights "Missing Tags" page with filterable track table and navigation from Tag Health
+- Add: Bulk tag editing for missing metadata (multi-select + batch apply for artist/album/album artist/year/genre)
 - Change: Crossfade no longer forces a switch to the Web Audio API — lossless output is preserved throughout
 - Change: Web Audio AudioContext now matches the source sample rate to avoid browser resampling of hi-res files
-
-## v0.5-rc · 2026-04-19
-
-## v0.5-rc · 2026-04-19
-
-## v0.5-rc · 2026-04-19
+- Change: Playlist empty-state art now uses the square add icon style and larger placeholder visual scale
+- Change: Empty-state artwork icons across album/artist/song/playlist are larger for improved readability
+- Fix: Media key Next/Previous handling on macOS by supporting additional hardware key mappings and safer dispatch fallback
+- Fix: Playlist empty cover fallback now renders consistently in playlist grid/detail contexts
+- Fix: Insights tag health year coverage and missing-tags workflow reliability
+- Fix: Genre normalization now treats naming variants consistently (e.g., Hip-Hop/Hip Hop, Nu-Metal/Nu Metal) across analysis paths
 
 ## v0.5-rc · 2026-04-19
 - Fix: bash 3.2 incompatibility in build script (replaced ^^ with tr)
