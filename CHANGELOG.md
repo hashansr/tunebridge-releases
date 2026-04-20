@@ -4,7 +4,7 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
-## v0.5-rc · 2026-04-20
+## v0.6-rc · 2026-04-20
 - Add: Backend crossfade via dual mpv instances — EQ and crossfade now stay on the lossless mpv path instead of falling back to Web Audio
 - Add: Gapless playback between tracks when mpv is active and exclusive mode is off
 - Add: HI-RES badge tier — shows when exclusive mode is on with lossless source and DSP (EQ or volume change) active
