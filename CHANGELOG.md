@@ -4,11 +4,15 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.6-rc.210426-1508 · 2026-04-21
+
 ## v0.6-rc · 2026-04-21
 - Fix: Songs table header/data alignment issue by removing duplicate Genre cell and restoring correct column order (Time/Favourite/Genre/Year)
 - Change: Track-table row action hover states are now icon-color only (blue for standard actions, red for delete) with no circular hover background
 - Fix: Table headers now consistently use single-line labels to prevent wrap-related drift and readability regressions
 - Fix: Album Detail multi-disc grouping now recognizes additional disc metadata aliases and filename/path multi-disc patterns for more reliable per-disc table rendering
+- Add: Album Detail column chooser now exposes the full ID3/audio column set (matching Songs), including Disc #, Album Artist, Format, Bitrate, Sample Rate, Bit Depth, Date Added, and Filename
+- Fix: Album Detail multi-disc section heading (`Disc N`) spacing and typography for cleaner separation above each disc table
 
 ## v0.6-rc · 2026-04-21
 
