@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.13-rc.220426-0914 · 2026-04-22
+
 ## v0.12-rc.220426-0848 · 2026-04-22
 - Add: Insights Tag Health now includes a Track # completeness pill alongside Title, Artist, Album, Year, and Genre
 - Change: Insights Sonic Profile now shows Library Tonal Demand chart before the Spectral Centroid and Dynamic Energy histograms
@@ -14,6 +16,7 @@
 - Fix: Removed all em dashes from user-facing Insights copy
 - Fix: Tag Health card footer gap tightened; section description formatting cleaned up
 - Change: Insights IEM detail FR chart controls reordered to Source, Genre overlay, PEQ, Overlays for a more natural flow
+- Fix: Insights → Edit Missing Tags row save now accepts Track # inline edits (including `N/M` format) and correctly keeps Track # in missing-tag validation
 
 ## v0.11-rc.220426-0741 · 2026-04-22
 
