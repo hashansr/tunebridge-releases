@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.11-rc.220426-0741 · 2026-04-22
+
 ## v0.10-rc.210426-2136 · 2026-04-21
 
 ## v0.9-rc.210426-2125 · 2026-04-21
@@ -26,6 +28,10 @@
 - Fix: Library scanner now extracts Disc # metadata for FLAC/MP3/M4A/WAV and persists it in SQLite, so `Disc #` column and album disc grouping are driven by actual tags (with path heuristics as fallback)
 - Add: Core tabular views now support drag-to-resize column widths from table headers, with per-table width persistence
 - Change: Table cell content in core library/playlist/favourites track tables is now left-aligned for consistent readability
+- Change: Table column visibility is now stored per view context (Songs, Album/Artist Detail, Playlist, Favourite Songs) to support view-specific defaults and behavior
+- Change: Album Detail first-load visible columns are now: Track #, Title, Artist, Album, Genre, Favourite, Actions
+- Fix: Album Detail disc grouping now prioritizes true `disc_number` metadata values before path/folder fallback; disc headings updated to match app typography scale/style
+- Fix: Album Detail track tables now use the same responsive width behavior as Songs (`max-content` + `min-width:100%`) so table width adapts when columns are shown/hidden
 
 ## v0.6-rc · 2026-04-21
 
