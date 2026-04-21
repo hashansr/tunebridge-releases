@@ -4,6 +4,17 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.12-rc.220426-0848 · 2026-04-22
+- Add: Insights Tag Health now includes a Track # completeness pill alongside Title, Artist, Album, Year, and Genre
+- Change: Insights Sonic Profile now shows Library Tonal Demand chart before the Spectral Centroid and Dynamic Energy histograms
+- Change: Insights Sonic Profile histogram charts renamed to Spectral Centroid Distribution and Dynamic Energy Distribution with explanatory subtitles; RMS stat row now shows relative spread percentage instead of raw floats
+- Change: Insights IEM match scores now include a small modifier (max 8%) from the 5 derived dimensions (soundstage, timbre, masking, layering, tonality), making the list scores consistent with the radar chart
+- Change: Insights Library Overview stat card badges updated to Music Library, Unique Albums, Unique Artists, and Genre Distribution; section description removed as self-explanatory
+- Change: Insights IEM match section description rewritten; score legend (green/amber/red thresholds) added above IEM list; Blindspot Detector renamed to Weak Genre Coverage
+- Fix: Removed all em dashes from user-facing Insights copy
+- Fix: Tag Health card footer gap tightened; section description formatting cleaned up
+- Change: Insights IEM detail FR chart controls reordered to Source, Genre overlay, PEQ, Overlays for a more natural flow
+
 ## v0.11-rc.220426-0741 · 2026-04-22
 
 ## v0.10-rc.210426-2136 · 2026-04-21
