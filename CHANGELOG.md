@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.14-rc.220426-0937 · 2026-04-22
+
 ## v0.13-rc.220426-0914 · 2026-04-22
 
 ## v0.12-rc.220426-0848 · 2026-04-22
@@ -17,6 +19,8 @@
 - Fix: Tag Health card footer gap tightened; section description formatting cleaned up
 - Change: Insights IEM detail FR chart controls reordered to Source, Genre overlay, PEQ, Overlays for a more natural flow
 - Fix: Insights → Edit Missing Tags row save now accepts Track # inline edits (including `N/M` format) and correctly keeps Track # in missing-tag validation
+- Change: Unified global page rail alignment so back button uses equal top/left inset and Home/Insights/Gear content aligns to the same left gutter as back navigation
+- Change: Refined global nav spacing: back-button top/left rail now targets ~25px on desktop, with larger gap between back button and page titles for cleaner hierarchy
 
 ## v0.11-rc.220426-0741 · 2026-04-22
 
