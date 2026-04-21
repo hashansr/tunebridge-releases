@@ -5,6 +5,12 @@
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
 ## v0.6-rc · 2026-04-21
+- Fix: Songs table header/data alignment issue by removing duplicate Genre cell and restoring correct column order (Time/Favourite/Genre/Year)
+- Change: Track-table row action hover states are now icon-color only (blue for standard actions, red for delete) with no circular hover background
+- Fix: Table headers now consistently use single-line labels to prevent wrap-related drift and readability regressions
+- Fix: Album Detail multi-disc grouping now recognizes additional disc metadata aliases and filename/path multi-disc patterns for more reliable per-disc table rendering
+
+## v0.6-rc · 2026-04-21
 
 ## v0.6-rc · 2026-04-21
 
@@ -19,6 +25,8 @@
 - Fix: Album Detail row actions are now consistently visible (with hover emphasis) to avoid missing action controls
 - Change: Added explicit `Actions` header label across core song/track tables globally
 - Fix: Multi-disc Album Detail grouping now uses stronger detection (disc tag + folder-aware fallback) so multi-disc albums reliably split into per-disc tables
+- Fix: Player startup now always enters paused state on launch (prevents unintended auto-play after fresh build/session restore)
+- Fix: Suppressed restore-time playback error toast when a restored/preloaded track is inaccessible at startup
 
 ## v0.6-rc · 2026-04-21
 - Add: Songs table now includes inline `Edit tags` action icon for quicker metadata updates
