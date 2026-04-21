@@ -5,6 +5,13 @@
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
 ## v0.6-rc · 2026-04-21
+- Change: Table column control is now an icon-only button that matches the app’s compact toolbar style
+- Fix: Column selector popover now repositions to stay inside the viewport (prevents right-edge cutoff on album detail)
+- Fix: Column selector now shows context-relevant columns per table, so toggles apply predictably in Album Detail, Songs, Playlist, and Favourite Songs views
+- Add: Album Detail table now separates multi-disc albums with `Disc N` divider rows when sorted by track number
+- Add: Songs table column selector now includes additional ID3/audio fields: Disc #, Format, Bitrate, Sample Rate, Bit Depth, Date Added, and Filename
+
+## v0.6-rc · 2026-04-21
 - Add: Songs table now includes inline `Edit tags` action icon for quicker metadata updates
 - Add: New shared `Columns` visibility picker for Songs, Tracks, Playlist Detail, and Favourite Songs tables (persisted per user)
 - Change: Songs/Favourites/Actions table headers are streamlined (no redundant text on icon-only action columns)
