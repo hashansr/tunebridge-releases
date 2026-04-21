@@ -5,6 +5,12 @@
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
 ## v0.6-rc · 2026-04-21
+- Add: Songs table now includes inline `Edit tags` action icon for quicker metadata updates
+- Add: New shared `Columns` visibility picker for Songs, Tracks, Playlist Detail, and Favourite Songs tables (persisted per user)
+- Change: Songs/Favourites/Actions table headers are streamlined (no redundant text on icon-only action columns)
+- Fix: Prevent header label wrapping on core track tables for cleaner, stable table layout
+
+## v0.6-rc · 2026-04-21
 - Change: Missing Tags editor now uses the universal navigation back flow and removes the duplicate in-page back button
 - Add: Inline per-row tag editing in Missing Tags table with in-place save for missing fields (title/artist/album/year/genre)
 
