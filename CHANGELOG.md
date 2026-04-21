@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.10-rc.210426-2136 · 2026-04-21
+
 ## v0.9-rc.210426-2125 · 2026-04-21
 
 ## v0.8-rc.210426-1554 · 2026-04-21
@@ -22,6 +24,8 @@
 - Fix: Album Detail multi-disc tables now use per-disc horizontal scroll wrappers to prevent header/data overlap when many columns are enabled
 - Fix: Album Detail track tables now use responsive wide-table sizing (`max-content` + horizontal scroll) to avoid column compression with extended ID3 fields
 - Fix: Library scanner now extracts Disc # metadata for FLAC/MP3/M4A/WAV and persists it in SQLite, so `Disc #` column and album disc grouping are driven by actual tags (with path heuristics as fallback)
+- Add: Core tabular views now support drag-to-resize column widths from table headers, with per-table width persistence
+- Change: Table cell content in core library/playlist/favourites track tables is now left-aligned for consistent readability
 
 ## v0.6-rc · 2026-04-21
 
