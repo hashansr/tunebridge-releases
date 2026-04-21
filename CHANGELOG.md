@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.7-rc.210426-1531 · 2026-04-21
+
 ## v0.6-rc.210426-1508 · 2026-04-21
 
 ## v0.6-rc · 2026-04-21
@@ -13,6 +15,8 @@
 - Fix: Album Detail multi-disc grouping now recognizes additional disc metadata aliases and filename/path multi-disc patterns for more reliable per-disc table rendering
 - Add: Album Detail column chooser now exposes the full ID3/audio column set (matching Songs), including Disc #, Album Artist, Format, Bitrate, Sample Rate, Bit Depth, Date Added, and Filename
 - Fix: Album Detail multi-disc section heading (`Disc N`) spacing and typography for cleaner separation above each disc table
+- Fix: Album Detail multi-disc tables now use per-disc horizontal scroll wrappers to prevent header/data overlap when many columns are enabled
+- Fix: Album Detail track tables now use responsive wide-table sizing (`max-content` + horizontal scroll) to avoid column compression with extended ID3 fields
 
 ## v0.6-rc · 2026-04-21
 
