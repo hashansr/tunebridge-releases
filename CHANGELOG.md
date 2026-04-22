@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.16-rc.220426-1120 · 2026-04-22
+
 ## v0.15-rc.220426-1027 · 2026-04-22
 
 ## v0.14-rc.220426-0937 · 2026-04-22
@@ -25,6 +27,7 @@
 - Change: Refined global nav spacing: back-button top/left rail now targets ~25px on desktop, with larger gap between back button and page titles for cleaner hierarchy
 - Change: Finalized app-wide nav/content spacing to match UI spec: 15px back-button top/left inset, 15px back-button-to-title vertical gap, and 35px content left inset
 - Change: Applied 15/15/35 nav spacing tokens globally across Home, Insights, Gear, and shared views so back navigation and content rail stay visually consistent
+- Fix: Startup restore now remains paused until user intent; restore-time file-load errors are muted (no playback-error toast / auto-skip on launch)
 
 ## v0.11-rc.220426-0741 · 2026-04-22
 
