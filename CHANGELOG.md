@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.22-rc.230426-0832 · 2026-04-23
+
 ## v0.21-rc.230426-0808 · 2026-04-23
 - Add: Gapless playback — next track is pre-buffered into the standby audio element while the current track plays; when crossfade is off, tracks transition with zero gap or silence
 - Add: ReplayGain support — reads REPLAYGAIN_TRACK_GAIN / REPLAYGAIN_ALBUM_GAIN / REPLAYGAIN_TRACK_PEAK / REPLAYGAIN_ALBUM_PEAK tags from FLAC, MP3, and M4A files during library scan
@@ -47,6 +49,8 @@
 - Fix: Album Detail `Track #` sort now prioritizes explicit disc tags and avoids conflicting path-based disc heuristics when disc tags are present
 - Fix: Album Detail sort logic now applies disc ordering only for true multi-disc albums; single-disc/no-disc albums sort as one flat table by the selected column/order
 - Change: Sync Music Step 3 playlists section now supports the same collapse/expand accordion behavior as track sections
+- Change: Increased Player PEQ popover surface opacity/contrast (panel + controls) for better readability over artwork backgrounds
+- Fix: Hardened queue handoff between collections by clearing standby prebuffer on Play All/collection shuffle and validating gapless standby source before swap (prevents wrong-track playback/UI mismatch)
 - Fix: Album Detail `Track #` sort now prioritizes explicit disc tags and avoids conflicting path-based disc heuristics when tags are present (prevents incorrect mixed ordering)
 
 ## v0.11-rc.220426-0741 · 2026-04-22
