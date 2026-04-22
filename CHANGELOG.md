@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.19-rc.220426-1310 · 2026-04-22
+
 ## v0.18-rc.220426-1146 · 2026-04-22
 
 ## v0.17-rc.220426-1138 · 2026-04-22
@@ -33,6 +35,7 @@
 - Change: Applied 15/15/35 nav spacing tokens globally across Home, Insights, Gear, and shared views so back navigation and content rail stay visually consistent
 - Fix: Startup restore now remains paused until user intent; restore-time file-load errors are muted (no playback-error toast / auto-skip on launch)
 - Fix: Album Detail `Track #` sort now prioritizes explicit disc tags and avoids conflicting path-based disc heuristics when disc tags are present
+- Fix: Album Detail sort logic now applies disc ordering only for true multi-disc albums; single-disc/no-disc albums sort as one flat table by the selected column/order
 - Fix: Album Detail `Track #` sort now prioritizes explicit disc tags and avoids conflicting path-based disc heuristics when tags are present (prevents incorrect mixed ordering)
 
 ## v0.11-rc.220426-0741 · 2026-04-22
