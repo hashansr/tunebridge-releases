@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.29-rc.230426-1742 · 2026-04-23
+
 ## v0.28-rc.230426-1547 · 2026-04-23
 - Fix: ReplayGain tagger no longer deadlocks at 0% on cancel+restart; removed the I/O semaphore that caused new threads to block indefinitely waiting for a cancelled thread still inside sf.read()
 
@@ -24,6 +26,8 @@
 - Fix: Tag edit APIs now invalidate Home + metadata caches immediately so Home rails refresh with updated artist/album values without waiting for cache TTL.
 - Fix: Artist tag edits now auto-update `album_artist` when both previously matched, so Home rails (Jump Back In/Recently Added) stop showing stale old-artist album cards.
 - Fix: Home album cards now include a fallback `track_id` resolution path, so opening/playing cards still works even if artist/album labels changed after metadata edits.
+- Change: Home → Listening Stats redesigned to match the new compact card-grid layout (hero + plays/albums/artists + top artist/album/track + days active/top genre) using current design system styling.
+- Change: Home → Listening Stats listening time is now displayed in minutes (`min`) for all periods.
 
 ## v0.23-rc.230426-0854 · 2026-04-23
 - Add: In-app ReplayGain tagger — Settings → Library now shows tag coverage (X of Y tracks tagged) and a "Tag Missing Tracks" button that measures EBU R128 loudness and writes REPLAYGAIN_* tags directly to FLAC, MP3, and M4A files in the background; audio streams are never re-encoded
