@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.34-rc.240426-0931 · 2026-04-24
+
 ## v0.33-rc.240426-0919 · 2026-04-24
 - Fix: Album Detail multi-disc tables now support multi-select correctly (including row highlight refresh and shift-range selection using global album row order across all discs)
 
