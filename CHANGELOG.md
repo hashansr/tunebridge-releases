@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.27-rc.230426-1525 · 2026-04-23
+
 ## v0.26-rc.230426-1519 · 2026-04-23
 - Fix: ReplayGain tagger now skips M4A/AAC files (and other formats soundfile cannot decode) entirely — they no longer appear in the track count or progress, preventing the tagger from stalling at 0%
 
