@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.33-rc.240426-0919 · 2026-04-24
+- Fix: Album Detail multi-disc tables now support multi-select correctly (including row highlight refresh and shift-range selection using global album row order across all discs)
+
 ## v0.32-rc.240426-0904 · 2026-04-24
 - Change: Insights → IEM Fit scores now recalculate from the selected PEQ profile; section average pills and top IEM score update live when PEQ changes
 - Add: Insights → IEM Fit now shows a `With PEQ` pill beside the IEM title when a PEQ profile is active
