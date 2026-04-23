@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.24-rc.230426-1441 · 2026-04-23
+- Fix: Startup mute restore now requires explicit user mute intent (`muteExplicit`) before applying persisted `muted=true`; stale legacy mute flags no longer force muted startup on new RC launches.
+- Fix: App shutdown now hard-stops playback on both window `closing` and `closed` events, with a macOS failsafe exit timer, preventing audio from continuing after the window is closed.
+- Fix: Home → Jump Back In now resolves cards against current library metadata after tag edits/renames, preventing stale artist/album values and dead/blank navigation targets.
+- Fix: Tag edit APIs now invalidate Home + metadata caches immediately so Home rails refresh with updated artist/album values without waiting for cache TTL.
+
 ## v0.23-rc.230426-0854 · 2026-04-23
 - Add: In-app ReplayGain tagger — Settings → Library now shows tag coverage (X of Y tracks tagged) and a "Tag Missing Tracks" button that measures EBU R128 loudness and writes REPLAYGAIN_* tags directly to FLAC, MP3, and M4A files in the background; audio streams are never re-encoded
 - Add: ReplayGain tagging runs as a cancellable background task with live progress bar; tracks are grouped by album so album gain is computed accurately alongside track gain
