@@ -4,6 +4,16 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.32-rc.240426-0904 · 2026-04-24
+- Change: Insights → IEM Fit scores now recalculate from the selected PEQ profile; section average pills and top IEM score update live when PEQ changes
+- Add: Insights → IEM Fit now shows a `With PEQ` pill beside the IEM title when a PEQ profile is active
+- Add: Insights → IEM Fit UI state persistence (expanded accordion, selected PEQ/source/genre overlay) now survives navigation and app relaunch
+- Change: Insights → IEM accordion visual merge refined so expanded header and detail panel blend into one seamless card
+- Add: Single-track tag editor now includes Disc #, Composer, and Comment fields (previously required Mp3tag for these)
+- Add: "Edit Tags" entry in track right-click context menu — opens the single-track editor directly
+- Add: "Edit Tags" button in the bulk action bar — select multiple tracks in Songs/playlist view then batch-edit shared fields
+- Add: Insights stale banner — after any tag edit, a warning appears on the Insights page prompting re-analysis with a one-click "Analyse now" button
+
 ## v0.31-rc.230426-1901 · 2026-04-23
 - Change: Home → Listening Stats typography and spacing refined to match app-wide scale (smaller stat values/labels, tighter card padding, and improved top-track row balance for long titles)
 
