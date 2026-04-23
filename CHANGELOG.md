@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.26-rc.230426-1519 · 2026-04-23
+- Fix: ReplayGain tagger now skips M4A/AAC files (and other formats soundfile cannot decode) entirely — they no longer appear in the track count or progress, preventing the tagger from stalling at 0%
+
 ## v0.25-rc.230426-1510 · 2026-04-23
 - Fix: ReplayGain tagger "Tag Missing Tracks" button is now disabled while tagging is in progress, preventing accidental double-starts
 - Fix: Clicking Cancel during ReplayGain tagging now immediately hides the progress banner
