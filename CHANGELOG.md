@@ -4,6 +4,14 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.39-rc.240426-1311 · 2026-04-24
+- Add: Sync Review Changes V2 data model with persistent per-DAP ignored discrepancy state (`sync_ignored_discrepancies`) keyed by normalized rel path + discrepancy type.
+- Change: Sync scan payload now classifies actionable Step 3 buckets explicitly (`to_device_add`, `library_deleted_on_source`, `device_only_not_in_library`, `playlists_out_of_sync`) and separates filtered `ignored_tracks`.
+- Change: Sync execute contract upgraded to action-specific lists (`add_to_device_paths`, `copy_to_local_paths`, `delete_on_device_paths`, `ignore_upserts`, `ignore_removals`, `playlist_ids`) while preserving playlist export behavior.
+- Add: Safe device delete guardrails in sync execution to ensure deletions remain constrained to the configured DAP music root.
+- Add: New ignored-discrepancy APIs (`GET/POST/DELETE /api/sync/ignored`) for Step 3 skip/unskip workflows.
+- Change: Sync Step 3 UI redesigned to action-based sections with per-row decision controls, skipped-tracks section, rescan-required gating after un-ignore, and destructive delete confirmation preflight.
+
 ## v0.38-rc.240426-1059 · 2026-04-24
 
 ## v0.37-rc.240426-1056 · 2026-04-24
