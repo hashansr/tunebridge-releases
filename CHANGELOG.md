@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.41-rc.240426-1607 · 2026-04-24
+- Change: Sync modal header refinement — enlarged phase icon and centered it against the step/title/subtitle text block for cleaner visual alignment.
+- Add: Playlist generation preview now supports play-history filters (exclude heard, heard-within-days, and min/max play count) via track play-stat lookups.
+
 ## v0.40-rc.240426-1352 · 2026-04-24
 - Change: Sync modal layout refined again for tighter footprint and cleaner hierarchy: removed header/body separator lines, moved step indicator to a bottom dot/pill rail, and reduced modal width/height/padding across desktop and responsive breakpoints.
 
