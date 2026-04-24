@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.36-rc.240426-1028 · 2026-04-24
+- Change: Sync Music modal UI refreshed across all 5 steps (header hierarchy, step rail, progress visuals, section cards/lists, CTA styling, and responsive polish) without changing sync functionality
+
 ## v0.35-rc.240426-1012 · 2026-04-24
 
 ## v0.34-rc.240426-0931 · 2026-04-24
