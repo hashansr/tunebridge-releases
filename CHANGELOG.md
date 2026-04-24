@@ -4,6 +4,16 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.42-rc.240426-1633 · 2026-04-24
+- Add: Smart Rules playlists — declarative rule builder (genre, artist, year, play count, never played, last played, energy, brightness, and more) with AND/OR matching, limit, sort, and 6 built-in templates (Unheard Library, Forgotten Favorites, Recently Added Unheard, High Energy Unheard, FLAC Only, Old Deep Cuts)
+- Add: Smart playlists auto-refresh on open; "Smart" badge shown in playlist header
+- Add: Warning banner when sonic rules (energy/brightness) are active but some tracks lack audio analysis
+- Add: AI Mix generator now supports listening history filters — "Unheard only" and "Not heard in last 30/60/90 days" in Advanced options
+- Add: History view — chronological play log grouped by date with stats bar (plays, hours, unique tracks, top artist) and valid-listens-only toggle
+- Add: Library Coverage in Insights — heard/total progress bars for albums and artists, unheard album grid with one-click "Add to Playlist"
+- Add: Database schema v6 with `smart_playlist_rules` table for persistent rule storage
+- Add: New API routes: POST /api/playlists/smart/preview, POST /api/playlists/smart, GET/PUT /api/playlists/&lt;pid&gt;/smart, POST /api/playlists/&lt;pid&gt;/smart/refresh, GET /api/history, GET /api/insights/coverage
+
 ## v0.41-rc.240426-1607 · 2026-04-24
 - Change: Sync modal header refinement — enlarged phase icon and centered it against the step/title/subtitle text block for cleaner visual alignment.
 - Add: Playlist generation preview now supports play-history filters (exclude heard, heard-within-days, and min/max play count) via track play-stat lookups.
