@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.44-rc.250426-0802 · 2026-04-25
+
 ## v0.43-rc.250426-0800 · 2026-04-25
 - Fix: ReplayGain tagger no longer stalls mid-run (e.g. stuck at 4 of 10); each file is now read inside a fresh daemon sub-thread with a 60-second timeout, bypassing macOS I/O priority throttling that blocks long-running daemon threads indefinitely on large FLAC reads
 - Add: ReplayGain tagger progress banner now shows the filename currently being read and a "Waiting for drive…" message when a file stall is detected
