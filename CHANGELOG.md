@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.49-rc.260426-0818 · 2026-04-26
+- Change: Sync Music Step 1 modal refined to a tighter footprint and smaller typography for better alignment with app-wide modal scale; footer step indicator now sits inline with action buttons, the device connect hint row was removed, and device status chips now show `IN SYNC` / `OUT OF SYNC`.
+
 ## v0.48-rc.250426-1359 · 2026-04-25
 - Change: Sync modal Step 1 (device selection) now aligns to the Stitch mock with grouped device sections (`Recommended` / `External Storage`), refined card density and status chips, updated dashed connect row, and Scan-first footer CTA styling.
 
