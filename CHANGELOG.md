@@ -4,6 +4,13 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.46-rc.250426-1243 · 2026-04-25
+- Add: Design System V1 contract docs (`docs/design-system/design-system-v1.md`) with canonical `--tb-*` tokens, semantic alias rules, and shared primitive usage guidance.
+- Add: Modal governance docs (`modal-system-policy.md`, `modal-migration-audit-matrix.md`) including mandatory checklist and phased migration tracking.
+- Add: Automated modal guardrail checker (`scripts/check_modal_design_system.py`) and build-time enforcement in `build_app.sh` to block non-compliant modal changes.
+- Change: Sync modal now consumes shared modal primitives (`tb-modal-*`) and refreshed tokenized styling (compact shell, tighter spacing, bottom step rail retained, and Stitch-aligned header/icon hierarchy).
+- Change: Core action/form modals now mount on shared modal shell tiers (`tb-modal-shell` + size variants) to centralize future design-system updates.
+
 ## v0.45-rc.250426-0837 · 2026-04-25
 
 ## v0.44-rc.250426-0802 · 2026-04-25
