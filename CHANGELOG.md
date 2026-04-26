@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.52-rc.260426-1533 · 2026-04-26
+- Change: Sync Music Step 2 (Scanning Library) now matches the new mock structure with phase-specific header icon, warning-style progress banner, large scan progress ring, live summary stat cards (`To Device`, `To Local`, `Playlists`), and a dedicated Step 2 footer action row (`Back` + `Review Changes`) with left-aligned step rail.
+
 ## v0.51-rc.260426-1509 · 2026-04-26
 - Change: Sync Music Step 1 section labels now read `Connected` and `Not Connected`; close button styling now matches the shared app-wide modal close control.
 - Change: Sync modal shell sizing is now consistent across all sync steps (removed Step 1-only size overrides to prevent step-to-step resizing).
