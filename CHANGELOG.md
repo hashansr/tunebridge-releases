@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.55-rc.260426-1735 · 2026-04-26
+- Change: Sync Music Step 2 scan screen refined for cleaner focus — removed `To Device`/`To Local`/`Playlists` summary cards, centered the scan loader layout, and reduced `Scanning library data...` text size.
+- Change: Sync Music Step 3 review screen typography and spacing were rebalanced to match app-wide modal scale, row actions were converted to proper pill buttons (`Sync` / `Skip` / `Delete from Device`), track rows now use the default empty-song icon, and DAP-only `Unknown track` rows now fall back to filename without extension.
+
 ## v0.54-rc.260426-1644 · 2026-04-26
 - Change: Sync Music Step 3 (Review Changes) now follows the new mock styling with card-based discrepancy rows, refined section headers/icons/count pills, corrected text/action alignment, clearer action labels (`Sync`, `Skip`, `Delete from Device`), and updated footer CTA flow (`Back` + `Start Sync`) while preserving existing sync decision logic.
 
