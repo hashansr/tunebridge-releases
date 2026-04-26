@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.54-rc.260426-1644 · 2026-04-26
+- Change: Sync Music Step 3 (Review Changes) now follows the new mock styling with card-based discrepancy rows, refined section headers/icons/count pills, corrected text/action alignment, clearer action labels (`Sync`, `Skip`, `Delete from Device`), and updated footer CTA flow (`Back` + `Start Sync`) while preserving existing sync decision logic.
+
 ## v0.53-rc.260426-1535 · 2026-04-26
 
 ## v0.52-rc.260426-1533 · 2026-04-26
