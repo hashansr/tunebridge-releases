@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.58-rc.260426-2046 · 2026-04-26
+- Fix: Sync Music Step 3 now opens with all sections collapsed by default, keeps the summary + action rail persistent at the bottom while content scrolls, and aligns `Start Sync` hover behavior with shared primary button interactions.
+- Change: Sync modal step indicator is now unified across phases with a single consistent bottom rail (same size/position as Step 1), including Step 3 layout refinements for stable footer behavior.
+- Fix: Prevented sync-state reset while a scan/copy job is already running; opening Sync during an active run now shows a clear in-progress message instead of risking inconsistent state.
+
 ## v0.57-rc.260426-1917 · 2026-04-26
 - Change: Sync Music Step 3 polish pass — removed `Unknown track -` prefixes from DAP-only titles, removed section header icons for cleaner accordion headings, improved Step 3 scroll behavior with expanded sections, and rewrote the bottom summary copy for clearer readability.
 
