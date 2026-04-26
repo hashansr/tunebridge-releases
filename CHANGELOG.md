@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.53-rc.260426-1535 · 2026-04-26
+
 ## v0.52-rc.260426-1533 · 2026-04-26
 - Change: Sync Music Step 2 (Scanning Library) now matches the new mock structure with phase-specific header icon, warning-style progress banner, large scan progress ring, live summary stat cards (`To Device`, `To Local`, `Playlists`), and a dedicated Step 2 footer action row (`Back` + `Review Changes`) with left-aligned step rail.
 
