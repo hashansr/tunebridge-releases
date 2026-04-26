@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.50-rc.260426-1029 · 2026-04-26
+- Change: Sync Music Step 1 refined to match the finalized Stitch mock more closely with a tighter phase-specific shell, denser header/device-row spacing, `Connected`/`Not` device grouping, and compact footer rail/button alignment.
+- Change: Step 1 DAP status chips now support three explicit states — `IN SYNC`, `OUT OF SYNC`, and `CHECK STATUS` — with corresponding pill styling.
+
 ## v0.49-rc.260426-0818 · 2026-04-26
 - Change: Sync Music Step 1 modal refined to a tighter footprint and smaller typography for better alignment with app-wide modal scale; footer step indicator now sits inline with action buttons, the device connect hint row was removed, and device status chips now show `IN SYNC` / `OUT OF SYNC`.
 
