@@ -4,6 +4,14 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.64-rc.270426-1324 · 2026-04-27
+- Fix: Sync Step 3 footer no longer renders the extra dark gradient layer behind the summary/CTA area; footer now uses transparent background styling.
+- Change: Sync Step 3 summary copy now follows the agreed format:
+  `Tracks: <to add> • <to remove> • <skipped> • <playlists synced>`
+  and
+  `Space: <available> • <needed> • <available after sync>`.
+- Change: Sync Step 3 action rail alignment was tightened so Back + Start Sync remain right-aligned in the footer.
+
 ## v0.63-rc.270426-0945 · 2026-04-27
 - Change: Sync modal Step 2 now runs as a pure scanning phase with no `Back` / `Review Changes` action buttons; it advances to preview when scan reaches ready state.
 - Change: Sync modal header typography spacing was loosened (step label, title, subtitle) for cleaner readability across all sync steps.
