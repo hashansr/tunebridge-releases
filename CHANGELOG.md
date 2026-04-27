@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.66-rc.270426-1530 · 2026-04-27
+- Add: Duplicate Tracks tool in Settings → Library — finds tracks with identical title, artist and album tags, groups them with format/bitrate/size/path columns, and lets you Ignore, Remove (Trash or move to folder preserving Artist/Album structure), or Consolidate (keep one copy, remap all playlist references) per group.
+- Add: DAP duplicate scan — switch to DAP tab in the Duplicates view to scan a mounted player for duplicate files and delete them directly.
+- Add: Sync integration — tracks deleted via the Duplicates tool are recorded in a `deleted_tracks` log; the sync engine automatically classifies matching DAP-only files as "Library deleted" instead of "device only", preventing deleted files from being copied back.
+
 ## v0.65-rc.270426-1342 · 2026-04-27
 - Fix: Sync Step 3 footer alignment now matches modal standards more reliably by forcing full-width footer rails, anchoring summary width to modal content, and keeping the action cluster pinned to the bottom-right.
 
