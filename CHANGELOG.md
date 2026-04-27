@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.65-rc.270426-1342 · 2026-04-27
+- Fix: Sync Step 3 footer alignment now matches modal standards more reliably by forcing full-width footer rails, anchoring summary width to modal content, and keeping the action cluster pinned to the bottom-right.
+
 ## v0.64-rc.270426-1324 · 2026-04-27
 - Fix: Sync Step 3 footer no longer renders the extra dark gradient layer behind the summary/CTA area; footer now uses transparent background styling.
 - Change: Sync Step 3 summary copy now follows the agreed format:
