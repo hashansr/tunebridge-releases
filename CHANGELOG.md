@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.67-rc.270426-2021 · 2026-04-27
+- Add: "Not a duplicate" button per track row in the Duplicates view — marks a track as excluded from its group; excluded tracks are remembered and no longer counted when determining duplicates.
+- Add: Skipped & Not Duplicates section at the bottom of the Duplicates view — shows all ignored groups and individually excluded tracks with Restore/Undo buttons to reverse either action.
+- Add: Sidecar file cleanup — when a music file is deleted or moved, associated `.lrc` lyric files and macOS `._filename` AppleDouble resource forks are automatically removed alongside it.
+- Add: Empty folder cleanup — after deletion or move, TuneBridge detects directories that became empty and presents a checkbox list so you can remove them in one step.
+
 ## v0.66-rc.270426-1530 · 2026-04-27
 - Add: Duplicate Tracks tool in Settings → Library — finds tracks with identical title, artist and album tags, groups them with format/bitrate/size/path columns, and lets you Ignore, Remove (Trash or move to folder preserving Artist/Album structure), or Consolidate (keep one copy, remap all playlist references) per group.
 - Add: DAP duplicate scan — switch to DAP tab in the Duplicates view to scan a mounted player for duplicate files and delete them directly.
