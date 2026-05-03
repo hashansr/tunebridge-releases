@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.70-rc.030526-1454 · 2026-05-03
+- Fix: "Open in Finder" button now reliably calls the backend — path is stored in data attributes instead of an onclick string, eliminating any HTML-encoding edge cases.
+- Fix: Duplicate group table columns no longer overlap — column widths are set via inline style on col elements (the only reliable method for table-layout:fixed) and all non-path columns use white-space:nowrap so headers stay on one line.
+- Change: Action column widened (190px) to fit all three pills (Keep/Remove/Unique) without clipping; Finder column widened (136px) to fit "Open in Finder" text; Duration header shortened to "Dur" to fit the narrow column.
+
 ## v0.69-rc.030526-1417 · 2026-05-03
 - Fix: "Open in Finder" button now correctly reveals the file — previously passed the track ID instead of the file path to the backend.
 - Change: Duplicate view action column is now a 3-way pill per row — Keep, Remove, and Unique (was separate radio + checkbox + standalone "Not a duplicate" button). Selecting Unique immediately removes the track from the group; Keep/Remove are applied when clicking Delete marked or Consolidate.
