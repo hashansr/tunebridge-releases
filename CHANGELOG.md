@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.72-rc.030526-1519 · 2026-05-03
+- Fix: Consolidate/Remove action modal radio labels and descriptions no longer overflow and get clipped — removed conflicting `.modal` class from the shell element (it set a narrow 360px width and double-padding that overrode the 560px shell width), and gave the option body `flex:1` so it fills available space correctly.
+
 ## v0.71-rc.030526-1505 · 2026-05-03
 - Fix: "Open in Finder" and "Unique" buttons in the Duplicates view now work correctly — all duplicate-related API calls were double-encoding their JSON bodies, causing 500 errors; body arguments are now passed as plain objects so the shared api() helper handles serialisation once.
 
