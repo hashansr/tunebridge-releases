@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.71-rc.030526-1505 · 2026-05-03
+- Fix: "Open in Finder" and "Unique" buttons in the Duplicates view now work correctly — all duplicate-related API calls were double-encoding their JSON bodies, causing 500 errors; body arguments are now passed as plain objects so the shared api() helper handles serialisation once.
+
 ## v0.70-rc.030526-1454 · 2026-05-03
 - Fix: "Open in Finder" button now reliably calls the backend — path is stored in data attributes instead of an onclick string, eliminating any HTML-encoding edge cases.
 - Fix: Duplicate group table columns no longer overlap — column widths are set via inline style on col elements (the only reliable method for table-layout:fixed) and all non-path columns use white-space:nowrap so headers stay on one line.
