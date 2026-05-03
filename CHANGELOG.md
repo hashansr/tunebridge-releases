@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.79-rc.030526-2003 · 2026-05-03
+- Fix: Restore and Undo buttons in the Skipped & Not Duplicates section now work — WKWebView silently drops the request body on HTTP DELETE, causing the undo call to fail with a 400 error; both actions now use POST to dedicated endpoints.
+
 ## v0.78-rc.030526-1558 · 2026-05-03
 
 ## v0.77-rc.030526-1552 · 2026-05-03
