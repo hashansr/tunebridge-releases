@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.77-rc.030526-1552 · 2026-05-03
+
 ## v0.76-rc.030526-1550 · 2026-05-03
 - Change: "Skipped & Not Duplicates" section redesigned as a unified table — Type badge (Ignored / Unique), Title, Artist, Album columns with fixed widths; replaces the two separate flat div lists.
 
