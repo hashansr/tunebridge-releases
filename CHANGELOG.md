@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.99-rc.040526-1914 · 2026-05-04
+
 ## v0.98-rc.040526-1857 · 2026-05-04
 - Change: All table views (Tracks, Songs, Playlist, Favourite Songs, Edit Missing Tags) now render filter, sort, and column controls inside the table shell with a border-bottom separator — replaces the old separate pill-style toolbar above each table
 - Add: Filter input added to the Tracks view and Favourite Songs view
