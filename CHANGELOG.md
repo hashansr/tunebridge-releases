@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.104-rc.050526-0822 · 2026-05-05
+- Add: Home screen redesign — fixed 140px album art cards with centred play overlay, "Jump Back In" / "Listen Next" / "Recently Added" horizontal scroll rails, "See All" links, blue-gradient stats hero, inline dot-separated library summary
+- Change: Home screen section spacing tightened (24px between sections), "Home" title enlarged to 28px/800 to distinguish from section headers
+- Fix: First card in horizontal scroll rail no longer clips on hover due to scale transform
+
 ## v0.103-rc.050526-0803 · 2026-05-05
 
 ## v0.102-rc.050526-0753 · 2026-05-05
