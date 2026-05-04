@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.88-rc.040526-1210 · 2026-05-04
+- Fix: Play event elapsed time no longer inflated after app restore — if a track was paused mid-way in a previous session, resuming and stopping shortly after would record the restored seek offset as listening time; _startPlay() now anchors the session clock to the current playback position
+
 ## v0.87-rc.040526-1205 · 2026-05-04
 
 ## v0.86-rc.040526-1153 · 2026-05-04
