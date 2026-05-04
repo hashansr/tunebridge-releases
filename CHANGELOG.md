@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.95-rc.040526-1511 · 2026-05-04
+- Change: Tables across the web/macOS app now share a centralized TuneBridge table pattern for consistent row heights, headers, hover/selected states, toolbars, and column controls.
+
 ## v0.94-rc.040526-1447 · 2026-05-04
 - Change: Page title typography and spacing now use shared TuneBridge title tokens across the web/macOS app for more consistent headers.
 
