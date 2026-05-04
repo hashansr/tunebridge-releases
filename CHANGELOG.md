@@ -4,6 +4,13 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.98-rc.040526-1857 · 2026-05-04
+- Change: All table views (Tracks, Songs, Playlist, Favourite Songs, Edit Missing Tags) now render filter, sort, and column controls inside the table shell with a border-bottom separator — replaces the old separate pill-style toolbar above each table
+- Add: Filter input added to the Tracks view and Favourite Songs view
+- Add: Sort chips added to Tracks (#/Title/Album/Artist/Duration), Songs (Original/A–Z/Artist/Album/Year), and Favourite Songs (My Order/Recently Added/A–Z/Album) toolbars
+- Change: Multi-disc albums render disc labels as inline section-header rows within a single table instead of separate tables per disc
+- Fix: Filter clear button across all views now uses class-based visibility instead of inline display style
+
 ## v0.97-rc.040526-1617 · 2026-05-04
 
 ## v0.96-rc.040526-1600 · 2026-05-04
