@@ -4,6 +4,15 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.85-rc.040526-1128 · 2026-05-04
+- Fix: Listening History "Could not load history" error — undefined `_fmtDur` helper caused a silent ReferenceError in the event row template
+- Fix: History view now defaults to 7-day period matching the active pill in the UI
+- Add: Artist and album names in Listening History rows are now clickable navigation links
+- Add: Per-row delete button (hover to reveal ✕) to remove individual history events
+- Add: "Clear ▾" dropdown in History view to delete events from the last 7/30/90 days or all time
+- Add: Listening charts in History view — plays-per-day bar chart and top artists list
+- Add: Play count badges on album and songs view track rows showing how many times each track has been played
+
 ## v0.84-rc.040526-1120 · 2026-05-04
 
 ## v0.83-rc.040526-1108 · 2026-05-04
