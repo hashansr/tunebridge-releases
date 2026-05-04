@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.87-rc.040526-1205 · 2026-05-04
+
 ## v0.86-rc.040526-1153 · 2026-05-04
 - Change: Sync Music is now presented as a standalone promoted sidebar CTA above library scan status, separate from Library, Gear, and Insights navigation
 - Change: History moved from Library section to Insights section in the sidebar
