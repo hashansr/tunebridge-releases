@@ -1,7 +1,7 @@
 {
-  "version": "0.109",
-  "version_full": "0.109-rc.050526-1441",
-  "build": 109,
+  "version": "0.110",
+  "version_full": "0.110-rc.050526-1509",
+  "build": 110,
   "channel": "rc",
   "released": "2026-05-05"
 }
