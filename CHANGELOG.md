@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.144-rc.070526-1757 · 2026-05-07
+
 ## v0.143-rc.070526-1755 · 2026-05-07
 - Change: Lyrics badges now appear after song titles and use a smaller, subtler visual treatment.
 
