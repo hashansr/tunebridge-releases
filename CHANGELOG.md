@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.142-rc.070526-1738 · 2026-05-07
+- Add: Library scan now tracks same-basename `.lrc` lyric sidecars and shows a restrained lyrics badge beside songs with lyrics.
+
 ## v0.141-rc.070526-1724 · 2026-05-07
 
 ## v0.140-rc.070526-1717 · 2026-05-07
