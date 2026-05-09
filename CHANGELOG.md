@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.159-rc.090526-1526 · 2026-05-09
+
 ## v0.158-rc.090526-1457 · 2026-05-09
 - Fix: New app launches no longer reuse an older TuneBridge server on port 5001; mismatched builds now start on a fallback local port so the UI and backend come from the same app bundle.
 - Fix: The legacy local app builder now writes the current TuneBridge version into the macOS app metadata instead of hard-coding 1.0.
