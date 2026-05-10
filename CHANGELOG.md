@@ -4,10 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
-## v0.177-rc.100526-1929 · 2026-05-10
-- Change: Replaced icon set app-wide — player controls, volume (3-level), mute, PEQ, queue, sync, settings, favourite star, bin/trash, lyrics, and refresh now use a unified filled SVG family
-
-## v0.176-rc.100526-1907 · 2026-05-10
+## v0.178-rc.100526-2206 · 2026-05-10
+- Change: Phase 2 icon refresh — nav icons (Home, Artists, Songs, Gear, Insights, History), close buttons, chevrons, search, warning, shuffle, accordion, pencil/edit, camera, upload/download, plus, info, checkmark, and dots now use the unified filled SVG family
 
 ## v0.175-rc.100526-1838 · 2026-05-10
 - Change: Player play/pause button now a ghost icon (26px white icon, no filled circle); PEQ pill border removed
