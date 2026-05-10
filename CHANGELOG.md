@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.179-rc.100526-2236 · 2026-05-10
+
 ## v0.178-rc.100526-2206 · 2026-05-10
 - Change: Phase 2 icon refresh — nav icons (Home, Artists, Songs, Gear, Insights, History), close buttons, chevrons, search, warning, shuffle, accordion, pencil/edit, camera, upload/download, plus, info, checkmark, and dots now use the unified filled SVG family
 
