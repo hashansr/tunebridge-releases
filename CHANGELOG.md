@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.174-rc.100526-1815 · 2026-05-10
+- Change: Player bar buttons now use ghost icon style — removed backgrounds and borders, icons scale on hover, matching Apple Music aesthetic
+
 ## v0.173-rc.100526-1806 · 2026-05-10
 
 ## v0.172-rc.100526-1757 · 2026-05-10
