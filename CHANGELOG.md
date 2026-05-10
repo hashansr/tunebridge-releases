@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.176-rc.100526-1907 · 2026-05-10
+
 ## v0.175-rc.100526-1838 · 2026-05-10
 - Change: Player play/pause button now a ghost icon (26px white icon, no filled circle); PEQ pill border removed
 
