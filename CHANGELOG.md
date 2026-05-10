@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.175-rc.100526-1838 · 2026-05-10
+- Change: Player play/pause button now a ghost icon (26px white icon, no filled circle); PEQ pill border removed
+
 ## v0.174-rc.100526-1815 · 2026-05-10
 - Change: Player bar buttons now use ghost icon style — removed backgrounds and borders, icons scale on hover, matching Apple Music aesthetic
 
