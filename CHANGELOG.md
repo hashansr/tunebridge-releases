@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.213-rc.130526-0715 · 2026-05-13
+
 ## v0.212-rc.120526-1534 · 2026-05-12
 - Change: Unified all empty states to use a consistent icon-circle + title + subtitle + optional CTA button pattern across every view
 - Fix: Artists, Albums, and Songs filter empty states now show a "Clear search" button and filter-specific copy instead of generic "scan your library" text
