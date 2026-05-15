@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.291-rc.160526-0917 · 2026-05-16
+
 ## v0.290-rc.160526-0859 · 2026-05-16
 - Add: "Because You Listened" now surfaces unplayed albums that match your recent genre taste alongside familiar picks
 - Add: Each "Because You Listened" card now shows a reason line explaining why it was recommended
