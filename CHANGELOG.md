@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.276-rc.150526-1713 · 2026-05-15
+- Fix: Search results now rank original studio recordings above tribute, cover, karaoke, and live versions — exact title matches surface first, with play history and metadata completeness used as tiebreakers
+
 ## v0.275-rc.150526-1700 · 2026-05-15
 
 ## v0.274-rc.150526-1647 · 2026-05-15
