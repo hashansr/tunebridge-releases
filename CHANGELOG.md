@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.271-rc.150526-1602 · 2026-05-15
+- Change: Search results redesigned to Apple Music-style layout — Top Results 4-column grid (2 songs, 2 albums, 2 artists, 2 playlists), Songs tabular view (art + title + artist + album, top 5), Albums carousel, circular Artists grid, Playlists carousel; empty sections hidden automatically
+- Add: Album search in global search — albums now returned as a separate category with artist-name matching
+- Change: Sidebar search bar moved down from logo with tighter gap to nav items
+
 ## v0.270-rc.150526-1515 · 2026-05-15
 - Add: Global search bar in sidebar (above Home) — searches artists, songs, and playlists in one view; Cmd+K or / to focus; debounced with 260ms delay; × to clear and return home
 
