@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.283-rc.150526-1921 · 2026-05-15
+
 ## v0.282-rc.150526-1912 · 2026-05-15
 - Change: Reduced Album, Artist, and Playlist hero section height from ~312px to ~220px — heroes now occupy ~27% of usable screen height, matching Spotify/Apple Music proportions and giving more room to track lists
 
