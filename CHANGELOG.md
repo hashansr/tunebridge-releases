@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.260-rc.150526-1248 · 2026-05-15
+
 ## v0.259-rc.150526-1232 · 2026-05-15
 
 ## v0.258-rc.150526-1200 · 2026-05-15
