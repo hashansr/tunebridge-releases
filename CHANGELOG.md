@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.313-rc.170526-2117 · 2026-05-17
+
 ## v0.312-rc.170526-2059 · 2026-05-17
 - Fix: Play history no longer creates duplicate play events when the page reloads while mpv is playing (empty session_id caused each heartbeat to insert a new row instead of updating the existing one)
 - Fix: Tracks restored at a non-zero seek position are no longer counted as valid listens on page close if the user never pressed Play
