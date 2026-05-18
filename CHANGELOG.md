@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.318-rc.190526-0745 · 2026-05-19
+
 ## v0.317-rc.190526-0738 · 2026-05-19
 - Fix: Player bar no longer overflows its container when the window is narrower than 1040px — height is now auto-sized to fit all three stacked rows cleanly
 - Fix: Bulk action bar (multi-select floating bar) was hidden behind the player bar at narrow widths; bottom offset corrected
