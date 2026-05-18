@@ -2,7 +2,7 @@
 
 **Your personal music library, beautifully managed.**
 
-TuneBridge is a local music manager for macOS built for people who care about their music collection. Browse your FLAC library by artist and album, build and export playlists to portable audio players, and listen in-app with a real-time parametric EQ. Everything runs on your Mac — no accounts, no cloud, no subscriptions.
+TuneBridge is a local music manager for macOS built for people who care about their music collection. Browse your FLAC library by artist and album, build and export playlists to portable audio players, and listen in-app with a real-time parametric EQ. Everything runs on your Mac. No accounts, no cloud, no subscriptions.
 
 ---
 
@@ -21,8 +21,8 @@ Requires macOS 14 Sonoma or later.
 - **Export playlists** to portable audio players (FiiO, Hiby, AP80, and more)
 - **Sync music** bidirectionally between your Mac and a DAP or SD card
 - **Play music** in-app with crossfade, shuffle, repeat, and a Web Audio parametric EQ
-- **Analyse your library** with Insights — tag health, sonic profiles, and IEM matching
-- **Manage headphones** — import frequency response measurements from squig.link and overlay PEQ profiles
+- **Analyse your library** with Insights: tag health, sonic profiles, and IEM matching
+- **Manage headphones**: import frequency response measurements from squig.link and overlay PEQ profiles
 
 ---
 
@@ -49,11 +49,11 @@ Drag **TuneBridge** into the **Applications** shortcut in the same window. Wait 
 
 ### 3. macOS Security Workaround
 
-TuneBridge is distributed outside the Mac App Store and is not notarised by Apple, so macOS will block it the first time you open it. This is expected — follow either method below.
+TuneBridge is distributed outside the Mac App Store and is not notarised by Apple, so macOS will block it the first time you open it. This is expected. Follow either method below.
 
 ---
 
-#### Method A — Right-click to open (quickest)
+#### Method A: Right-click to open (quickest)
 
 1. Open **Finder** and go to your **Applications** folder
 2. **Right-click** (or Control-click) on **TuneBridge**
@@ -70,7 +70,7 @@ TuneBridge is distributed outside the Mac App Store and is not notarised by Appl
 
 ---
 
-#### Method B — Privacy & Security settings
+#### Method B: Privacy & Security settings
 
 If you double-clicked TuneBridge first and were blocked, macOS will have shown a dialog saying it could not be opened. After dismissing that dialog:
 
@@ -82,7 +82,7 @@ If you double-clicked TuneBridge first and were blocked, macOS will have shown a
 6. Click **Open** in the final confirmation dialog
 
 <!-- SCREENSHOT: System Settings → Privacy & Security with the "Open Anyway" button visible at the bottom -->
-![Privacy & Security — Open Anyway](assets/screenshots/privacy-security-open-anyway.png)
+![Privacy & Security, Open Anyway](assets/screenshots/privacy-security-open-anyway.png)
 
 ---
 
@@ -92,7 +92,7 @@ On first run, macOS will ask:
 
 > **"TuneBridge would like to access files in your Documents folder."**
 
-Click **Allow** — this permission is required for TuneBridge to read your music library.
+Click **Allow**. This permission is required for TuneBridge to read your music library.
 
 <!-- SCREENSHOT: macOS TCC Documents folder access prompt -->
 ![macOS Documents folder permission prompt](assets/screenshots/documents-permission.png)
@@ -108,7 +108,7 @@ Once TuneBridge is open:
 Click the **Settings** icon in the sidebar → **Library** section → enter the path to your music folder (e.g. `/Volumes/Storage/Music/FLAC`) → click **Save**.
 
 <!-- SCREENSHOT: Settings view with the Library path input field -->
-![Settings — library path](assets/screenshots/settings-library.png)
+![Settings, library path](assets/screenshots/settings-library.png)
 
 ### 2. Scan your library
 
@@ -119,7 +119,7 @@ Click **Rescan Library**. TuneBridge will index all tracks and cache metadata. A
 Navigate to **Library** in the sidebar to browse by artist and album. Double-click any track to play it in the player bar at the bottom, or click the play button on any album or artist card to queue everything.
 
 <!-- SCREENSHOT: Artist grid view showing album art cards -->
-![Library — artist grid](assets/screenshots/library-artists.png)
+![Library, artist grid](assets/screenshots/library-artists.png)
 
 ### 4. Build a playlist
 
@@ -156,7 +156,7 @@ Files are identified by their embedded tags (not just filenames), so minor namin
 
 TuneBridge runs entirely on your Mac. No usage data, analytics, or personal information is ever collected or transmitted.
 
-The only optional outbound connection is to [squig.link](https://squig.link) when you add headphone frequency-response measurements in the **Gear** section. This is entirely user-initiated — TuneBridge never connects to any external service automatically.
+The only optional outbound connection is to [squig.link](https://squig.link) when you add headphone frequency-response measurements in the **Gear** section. This is entirely user-initiated. TuneBridge never connects to any external service automatically.
 
 ---
 
