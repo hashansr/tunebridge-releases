@@ -10,7 +10,7 @@ TuneBridge is a local music manager for macOS built for people who care about th
 
 **[Download TuneBridge v0.322 for macOS →](https://github.com/hashansr/tunebridge-releases/raw/main/TuneBridge-latest.dmg)**
 
-Requires macOS 14 Sonoma or later.
+Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). Intel Macs are not supported.
 
 ---
 
@@ -29,6 +29,7 @@ Requires macOS 14 Sonoma or later.
 ## Requirements
 
 - macOS 14 Sonoma or later
+- Apple Silicon Mac (M1, M2, M3, or M4). Intel Macs are not supported
 - A music library organised as `Artist / Album / tracks`
 - Supported formats: FLAC, MP3, AAC, M4A, ALAC, OGG, OPUS, WAV, AIFF
 
