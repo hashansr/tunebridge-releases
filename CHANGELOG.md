@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.321-rc.190526-0832 · 2026-05-19
+
 ## v0.320-rc.190526-0819 · 2026-05-19
 - Add: Replay Gain master toggle in Settings → Playback — off by default; prompts to tag the library on first enable
 - Change: Replay Gain mode (Track/Album) and ReplayGain Tags management moved from the PEQ popover and Library settings into Settings → Playback → Replay Gain
