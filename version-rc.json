@@ -1,7 +1,7 @@
 {
-  "version": "0.315",
-  "version_full": "0.315-rc.180526-1645",
-  "build": 315,
+  "version": "0.317",
+  "version_full": "0.317-rc.190526-0738",
+  "build": 317,
   "channel": "rc",
-  "released": "2026-05-18"
+  "released": "2026-05-19"
 }
