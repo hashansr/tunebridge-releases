@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.315-rc.180526-1645 · 2026-05-18
+- Fix: First-launch Apple Music / media library TCC permission prompt no longer appears — default library path changed from `~/Music` to empty, so the library scanner no longer accesses `~/Music` before the user configures a path
+
 ## v0.314-rc.180526-1332 · 2026-05-18
 
 ## v0.313-rc.170526-2117 · 2026-05-17
