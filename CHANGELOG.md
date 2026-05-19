@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.334-rc.200526-0823 · 2026-05-20
+
 ## v0.333-rc.200526-0817 · 2026-05-20
 - Fix: Sync Music now resolves duplicate library files that render to the same DAP path by choosing the largest local source, so upgraded library files do not repeatedly appear as size mismatches.
 

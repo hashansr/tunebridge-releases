@@ -1,7 +1,7 @@
 {
-  "version": "0.333",
-  "version_full": "0.333-rc.200526-0817",
-  "build": 333,
+  "version": "0.334",
+  "version_full": "0.334-rc.200526-0823",
+  "build": 334,
   "channel": "rc",
   "released": "2026-05-20"
 }
