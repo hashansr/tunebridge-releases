@@ -2,7 +2,7 @@
 
 **Your personal music library, beautifully managed.**
 
-TuneBridge is a local music manager for macOS built for people who care about their music collection. Browse your FLAC library by artist and album, build and export playlists to portable audio players, and listen in-app with a real-time parametric EQ. Everything runs on your Mac. No accounts, no cloud, no subscriptions.
+TuneBridge is a local music manager for macOS built for people who care about their music collection. Browse your local music library by artist and album, build and export playlists to portable audio players, and listen in-app with a real-time parametric EQ. Everything runs on your Mac. No accounts, no cloud, no subscriptions.
 
 ---
 
