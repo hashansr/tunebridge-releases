@@ -79,7 +79,6 @@ On first run, macOS will ask:
 Click **Allow**. This permission is required for TuneBridge to read your music library.
 
 <!-- SCREENSHOT: macOS TCC Documents folder access prompt -->
-![macOS Documents folder permission prompt](assets/screenshots/documents-permission.png)
 
 ---
 
