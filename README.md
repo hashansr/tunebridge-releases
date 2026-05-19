@@ -16,6 +16,8 @@ Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). I
 
 ## What You Can Do
 
+<img src="assets/screenshots/app-home.png" alt="TuneBridge home screen" width="680">
+
 - **Browse** your music library by artist, album, and track with album art
 - **Build playlists** with drag-and-drop track ordering
 - **Export playlists** to portable audio players (FiiO, Hiby, AP80, and more)
