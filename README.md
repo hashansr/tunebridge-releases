@@ -134,9 +134,20 @@ Files are identified by their embedded tags (not just filenames), so minor namin
 
 ## Privacy
 
-TuneBridge runs entirely on your Mac. No usage data, analytics, or personal information is ever collected or transmitted.
+TuneBridge runs entirely on your Mac. No usage data, analytics, or personal information is ever collected or transmitted to any service.
 
-The only optional outbound connection is to [squig.link](https://squig.link) when you add headphone frequency-response measurements in the **Gear** section. This is entirely user-initiated. TuneBridge never connects to any external service automatically.
+Depending on which features you enable, TuneBridge may connect to the following external services to fetch information. All connections are pull-only — nothing from your library is sent or published.
+
+| Service | Purpose | When it connects |
+|---|---|---|
+| [lrclib.net](https://lrclib.net) | Lyrics | When you open a track with lyrics enabled |
+| [squig.link](https://squig.link) | Headphone frequency response data | When you add an IEM in the Gear section |
+| [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI) | Album artwork | When artwork is missing from your library |
+| [Last.fm](https://last.fm) | Scrobbling / metadata | Only if you configure a Last.fm account in Settings |
+| [Fanart.tv](https://fanart.tv) | Artist artwork | When artwork is missing from your library |
+| [MusicBrainz](https://musicbrainz.org) | Track metadata | When metadata is missing or incomplete |
+
+Some services (such as Last.fm) require you to provide your own API key before TuneBridge will connect to them. None of these connections happen automatically without your configuration.
 
 ---
 
