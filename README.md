@@ -55,7 +55,7 @@ TuneBridge is distributed outside the Mac App Store and is not notarised by Appl
 
 If you double-clicked TuneBridge and macOS showed a warning, you'll see a dialog like this:
 
-![macOS blocked dialog — click Done](assets/screenshots/security-dialog-blocked.jpg)
+![macOS blocked dialog, click Done](assets/screenshots/security-dialog-blocked.jpg)
 
 Click **Done** to dismiss it. Then:
 
@@ -64,7 +64,7 @@ Click **Done** to dismiss it. Then:
 3. Find the message **"TuneBridge.app was blocked to protect your Mac"**
 4. Click **Open Anyway**
 
-![Privacy & Security — Open Anyway button](assets/screenshots/privacy-security-open-anyway.png)
+![Privacy & Security, Open Anyway button](assets/screenshots/privacy-security-open-anyway.png)
 
 TuneBridge will open after a brief verification. You only need to do this once.
 
@@ -136,7 +136,7 @@ Files are identified by their embedded tags (not just filenames), so minor namin
 
 TuneBridge runs entirely on your Mac. No usage data, analytics, or personal information is ever collected or transmitted to any service.
 
-Depending on which features you enable, TuneBridge may connect to the following external services to fetch information. All connections are pull-only — nothing from your library is sent or published.
+Depending on which features you enable, TuneBridge may connect to the following external services to fetch information. All connections are pull-only. Nothing from your library is sent or published.
 
 | Service | Purpose | When it connects |
 |---|---|---|
