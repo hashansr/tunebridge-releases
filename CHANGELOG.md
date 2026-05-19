@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.332-rc.200526-0800 · 2026-05-20
+- Change: Sync Music Step 3 now shows collapsed accordions with a down chevron and expanded accordions with an up chevron, with matching expand/collapse labels.
+- Add: Sync Music Step 3 now separates `.lrc` sidecar files into a `New Lyrics in Library` review section while renaming the song section to `New Songs In Library`.
+
 ## v0.331-rc.200526-0744 · 2026-05-20
 
 ## v0.330-rc.200526-0734 · 2026-05-20
