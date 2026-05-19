@@ -143,11 +143,13 @@ Depending on which features you enable, TuneBridge may connect to the following 
 | [lrclib.net](https://lrclib.net) | Lyrics | When you open a track with lyrics enabled |
 | [squig.link](https://squig.link) | Headphone frequency response data | When you add an IEM in the Gear section |
 | [iTunes Search API](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI) | Album artwork | When artwork is missing from your library |
-| [Last.fm](https://last.fm) | Scrobbling / metadata | Only if you configure a Last.fm account in Settings |
+| [Last.fm](https://last.fm) | Artist and album artwork | Only if you configure a Last.fm API key in Settings |
 | [Fanart.tv](https://fanart.tv) | Artist artwork | When artwork is missing from your library |
 | [MusicBrainz](https://musicbrainz.org) | Track metadata | When metadata is missing or incomplete |
 
-Some services (such as Last.fm) require you to provide your own API key before TuneBridge will connect to them. None of these connections happen automatically without your configuration.
+Some services (such as Last.fm and Fanart.tv) require you to provide your own API key before TuneBridge will connect to them. None of these connections happen automatically without your configuration.
+
+For full details, see the [Privacy Policy](PRIVACY.md).
 
 ---
 
