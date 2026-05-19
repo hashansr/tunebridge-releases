@@ -161,7 +161,7 @@ TuneBridge is a free, personal project built and maintained in spare time. If it
 
 [Buy me a coffee on Ko-fi](https://ko-fi.com/hashan)
 
-No pressure at all — just happy it's useful.
+No pressure at all. Just happy it's useful.
 
 ---
 
