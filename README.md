@@ -66,7 +66,7 @@ Click **Done** to dismiss it. Then:
 3. Find the message **"TuneBridge.app was blocked to protect your Mac"**
 4. Click **Open Anyway**
 
-![Privacy & Security, Open Anyway button](assets/screenshots/privacy-security-open-anyway.png)
+![Privacy & Security, Open Anyway button](assets/screenshots/privacy-security-open-anyway.jpg)
 
 TuneBridge will open after a brief verification. You only need to do this once.
 
