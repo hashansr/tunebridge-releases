@@ -155,6 +155,16 @@ For full details, see the [Privacy Policy](PRIVACY.md).
 
 ---
 
+## Support
+
+TuneBridge is a free, personal project built and maintained in spare time. If it has made your music library a bit more enjoyable, a coffee is always appreciated.
+
+[Buy me a coffee on Ko-fi](https://ko-fi.com/hashan)
+
+No pressure at all — just happy it's useful.
+
+---
+
 ## Licence
 
 Copyright © 2026 Hashan Ranatunga. All Rights Reserved.
