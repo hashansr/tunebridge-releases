@@ -42,7 +42,6 @@ Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). I
 Download `TuneBridge-latest.dmg` using the link above. Once downloaded, double-click it to mount the disk image.
 
 <!-- SCREENSHOT: DMG window showing TuneBridge.app and the Applications folder shortcut -->
-![TuneBridge DMG installer window](assets/screenshots/dmg-window.png)
 
 ### 2. Drag TuneBridge to Applications
 
@@ -52,26 +51,7 @@ Drag **TuneBridge** into the **Applications** shortcut in the same window. Wait 
 
 TuneBridge is distributed outside the Mac App Store and is not notarised by Apple, so macOS will block it the first time you open it. This is expected. Follow either method below.
 
----
-
-#### Method A: Right-click to open (quickest)
-
-1. Open **Finder** and go to your **Applications** folder
-2. **Right-click** (or Control-click) on **TuneBridge**
-3. Select **Open** from the menu
-4. Click **Open** in the dialog that appears
-
-<!-- SCREENSHOT: Right-click context menu on TuneBridge.app showing the Open option -->
-![Right-click TuneBridge and choose Open](assets/screenshots/rightclick-open.png)
-
-<!-- SCREENSHOT: macOS "cannot verify developer" dialog with Open button -->
-![macOS security dialog with Open button](assets/screenshots/security-dialog-open.png)
-
-> You only need to do this once. After that, double-clicking works normally.
-
----
-
-#### Method B: Privacy & Security settings
+#### Privacy & Security settings
 
 If you double-clicked TuneBridge and macOS showed a warning, you'll see a dialog like this:
 
