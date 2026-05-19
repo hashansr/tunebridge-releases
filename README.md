@@ -91,7 +91,6 @@ Once TuneBridge is open:
 Click the **Settings** icon in the sidebar → **Library** section → enter the path to your music folder (e.g. `/Volumes/Storage/Music/FLAC`) → click **Save**.
 
 <!-- SCREENSHOT: Settings view with the Library path input field -->
-![Settings, library path](assets/screenshots/settings-library.png)
 
 ### 2. Scan your library
 
@@ -102,14 +101,12 @@ Click **Rescan Library**. TuneBridge will index all tracks and cache metadata. A
 Navigate to **Library** in the sidebar to browse by artist and album. Double-click any track to play it in the player bar at the bottom, or click the play button on any album or artist card to queue everything.
 
 <!-- SCREENSHOT: Artist grid view showing album art cards -->
-![Library, artist grid](assets/screenshots/library-artists.png)
 
 ### 4. Build a playlist
 
 Click **+ New Playlist** in the sidebar. Browse to any artist or album and add tracks, whole albums, or an entire artist's catalogue to your playlist. Drag the handles to reorder.
 
 <!-- SCREENSHOT: Playlist view with tracks and drag handles -->
-![Playlist view](assets/screenshots/playlist-view.png)
 
 ### 5. Export to your DAP
 
