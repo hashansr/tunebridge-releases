@@ -18,13 +18,13 @@ Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). I
 
 <img src="assets/screenshots/app-home.png" alt="TuneBridge home screen" width="680">
 
-- **Browse** your music library by artist, album, and track with album art
-- **Build playlists** with drag-and-drop track ordering
-- **Export playlists** to portable audio players (FiiO, Hiby, AP80, and more)
+- **Browse** your LOCAL music library by artist, album, and track with album art
 - **Sync music** bidirectionally between your Mac and a DAP or SD card
-- **Play music** in-app with crossfade, shuffle, repeat, and a Web Audio parametric EQ
-- **Analyse your library** with Insights: tag health, sonic profiles, and IEM matching
-- **Manage headphones**: import frequency response measurements from squig.link and overlay PEQ profiles
+- **Build playlists** with drag and drop track ordering
+- **Export playlists** to portable audio players (FiiO, Hiby, AP80, and more)
+- **Play music** in-app with crossfade, shuffle, repeat, and a parametric EQ (PEQ)
+- **Analyse your library** with Insights: tag health, sonic profiles, and IEM to Music pairing
+- **Manage headphones & IEMs**: import frequency response measurements from squig.link and overlay PEQ profiles, compare and understand your music gear better. 
 
 ---
 
@@ -32,7 +32,7 @@ Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). I
 
 - macOS 14 Sonoma or later
 - Apple Silicon Mac (M1, M2, M3, or M4). Intel Macs are not supported
-- A music library organised as `Artist / Album / tracks`
+- A local music library organised as `Artist / Album / tracks` with ID3 tag data
 - Supported formats: FLAC, MP3, AAC, M4A, ALAC, OGG, OPUS, WAV, AIFF
 
 ---
@@ -41,7 +41,7 @@ Requires macOS 14 Sonoma or later on an Apple Silicon Mac (M1, M2, M3, or M4). I
 
 ### 1. Download and open the DMG
 
-Download `TuneBridge-latest.dmg` using the link above. Once downloaded, double-click it to mount the disk image.
+Download `TuneBridge-latest.dmg` using the link above. Once downloaded, double click it to mount the disk image.
 
 <!-- SCREENSHOT: DMG window showing TuneBridge.app and the Applications folder shortcut -->
 
