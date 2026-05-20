@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.348-rc.200526-1756 · 2026-05-20
+
 ## v0.347-rc.200526-1654 · 2026-05-20
 - Change: Updated edit, eject, and delete icons to new solid fill style across the app
 
