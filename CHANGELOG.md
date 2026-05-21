@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.361-rc.210526-1506 · 2026-05-21
+- Add: "Sync in progress..." toast with animated dots appears when navigating away during an active sync; changes to "Sync complete" when finished
+
 ## v0.360-rc.210526-1424 · 2026-05-21
 - Add: Sync nav button pulses blue while a scan or copy runs in the background (off the sync screen)
 - Fix: Navigating away during a sync scan and returning no longer restarts the scan from scratch
@@ -16,6 +19,9 @@
 - Add: Browser tab shows a "Leave site?" dialog if user tries to close while a sync copy is running
 - Add: TuneBridge.app shows a native macOS confirmation dialog if the window is closed during an active sync
 - Fix: Scan error card now clears correctly on Retry — normal scan progress UI is restored instead of staying stuck
+- Fix: Navigating away during an active sync (step 4) now pulses the Sync Music button as a background indicator
+- Fix: Returning to the Sync view while a copy is in progress now resumes at step 4 instead of showing the device picker
+- Fix: Returning to the Sync view after a copy finishes while away now shows the done screen instead of the device picker
 
 ## v0.359-rc.210526-1338 · 2026-05-21
 
