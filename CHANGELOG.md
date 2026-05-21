@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.369 · 2026-05-21
+
+## v0.368 · 2026-05-21
+
 ## v0.367-rc.210526-1816 · 2026-05-21
 - Add: Lyric Health tool in Settings › Library — scans for orphaned .lrc sidecar files with no matching music file and moves them to Trash
 
@@ -19,6 +23,7 @@
 
 ## v0.361-rc.210526-1506 · 2026-05-21
 - Add: "Sync in progress..." toast with animated dots appears when navigating away during an active sync; changes to "Sync complete" when finished
+- Fix: "Go Back" in the sync close-guard dialog now correctly keeps the app open instead of closing it; dialog buttons renamed to "Go Back" and "Quit App"
 
 ## v0.360-rc.210526-1424 · 2026-05-21
 - Add: Sync nav button pulses blue while a scan or copy runs in the background (off the sync screen)
