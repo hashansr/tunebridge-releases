@@ -4,6 +4,19 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.360-rc.210526-1424 · 2026-05-21
+- Add: Sync nav button pulses blue while a scan or copy runs in the background (off the sync screen)
+- Fix: Navigating away during a sync scan and returning no longer restarts the scan from scratch
+- Add: Current file path shown below the progress bar during sync copy, with a per-file progress bar
+- Change: Sync file copies are now chunked (4 MB blocks) so cancel takes effect mid-file and per-file progress is visible
+- Fix: Partially-written files are cleaned up automatically if a copy is cancelled or fails mid-transfer
+- Add: Step 3 (review) shows the device folder structure template under the "New Songs" group header
+- Add: Amber warning in step 3 when many device files don't match the library (possible folder structure mismatch)
+- Add: Step 4 shows an amber caution bar reminding users not to eject the device or close the app during sync
+- Add: Browser tab shows a "Leave site?" dialog if user tries to close while a sync copy is running
+- Add: TuneBridge.app shows a native macOS confirmation dialog if the window is closed during an active sync
+- Fix: Scan error card now clears correctly on Retry — normal scan progress UI is restored instead of staying stuck
+
 ## v0.359-rc.210526-1338 · 2026-05-21
 
 ## v0.358-rc.210526-1303 · 2026-05-21
