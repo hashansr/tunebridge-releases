@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.358-rc.210526-1303 · 2026-05-21
+
 ## v0.357-rc.210526-1254 · 2026-05-21
 
 ## v0.356-rc.210526-1250 · 2026-05-21
@@ -19,6 +21,7 @@
 - Change: Sync Music Step 3 song hierarchy now expands progressively from artists to albums to songs instead of opening every level at once.
 - Change: Sync Music Step 3 now applies the same artist/album/item hierarchy to lyrics, improves indentation, adds circular artist portraits, and removes song connector marks.
 - Change: Sync Music Step 3 footer now shows available device space, selected sync size, and remaining or over-capacity storage as users change selections.
+- Change: Sync Music Step 3 now shows aggregate file sizes at section, artist, and album levels, and displays small lyric file sizes in KB instead of rounded MB.
 
 ## v0.351 · 2026-05-20
 
