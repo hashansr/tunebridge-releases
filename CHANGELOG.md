@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.388-rc.250526-0933 · 2026-05-25
+
 ## v0.387-rc.250526-0931 · 2026-05-25
 - Fix: "See All" in the Recently Added home section now opens Songs sorted by date added (newest first) instead of the Albums view
 - Fix: "See All" in the Listen Next home section now opens the Discover (unplayed albums) view instead of the Artists view
