@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.390-rc.250526-1006 · 2026-05-25
+
 ## v0.389 · 2026-05-25
 - Add: Native macOS menu bar — TuneBridge, File, Edit, Play, Help menus with keyboard shortcuts
 - Add: Dock icon right-click menu with Play/Pause, Next Track, Previous Track controls
