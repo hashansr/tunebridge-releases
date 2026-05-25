@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.406-rc.260526-0906 · 2026-05-26
+- Change: Redesigned all confirmation dialogs with new anatomy — bare tinted icon glyph + title in header, flush-left body, horizontal footer with proper button hierarchy (ghost / secondary / primary or danger)
+- Add: Five dialog kinds (danger, warning, prompt, info, success) each with distinct icon and tint colour
+- Add: Three-button footer for unsaved-changes prompts (Discard ghost, Cancel, Save/action)
+- Change: Rewrote all confirmation dialog copy to be clearer and less formal
+
 ## v0.405-rc.260526-0752 · 2026-05-26
 
 ## v0.404-rc.260526-0739 · 2026-05-26
