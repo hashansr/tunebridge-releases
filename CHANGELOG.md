@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.411-rc.260526-1715 · 2026-05-26
+- Add: Drag-to-reorder pinned items on Home — drag cards left/right to set your preferred order, persisted across sessions
+
 ## v0.410-rc.260526-1624 · 2026-05-26
 
 ## v0.409 · 2026-05-26
