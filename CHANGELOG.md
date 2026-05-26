@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.407-rc.260526-1004 · 2026-05-26
+
 ## v0.406-rc.260526-0906 · 2026-05-26
 - Change: Redesigned all confirmation dialogs with new anatomy — bare tinted icon glyph + title in header, flush-left body, horizontal footer with proper button hierarchy (ghost / secondary / primary or danger)
 - Add: Five dialog kinds (danger, warning, prompt, info, success) each with distinct icon and tint colour
