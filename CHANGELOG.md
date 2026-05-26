@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.417-rc.260526-2254 · 2026-05-26
+
 ## v0.416-rc.260526-2221 · 2026-05-26
 - Add: Drag-to-reorder pinned items on Home — grip handle appears on card hover; right-click context menu unaffected
 - Change: Startup update checks now show a clickable download toast instead of opening Settings directly to the App tab.
