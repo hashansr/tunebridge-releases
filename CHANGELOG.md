@@ -4,6 +4,11 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.422-rc.270526-1226 · 2026-05-27
+- Fix: Compact player (<=900 px) -- Queue button now stays permanently visible outside the overflow menu; EQ and Favourite move into the overflow menu only
+- Fix: Compact player overflow menu and PEQ popover now appear above the player bar correctly (resolved stacking context issue caused by player bar's fixed positioning)
+- Fix: Overflow menu icon alignment and typography corrected -- icons and labels now properly aligned in a flex row with consistent sizing and font rendering
+
 ## v0.421-rc.270526-1141 · 2026-05-27
 - Change: Player bar facelift — Variant B "Integrated Premium": 96 px two-row layout with full-width scrubber on row 2, balanced 1fr auto 1fr three-column controls row, tonal play-button circle, visible scrubber thumb with accent halo, vertical divider before volume, compact ≤900 px collapse to ··· overflow menu
 
