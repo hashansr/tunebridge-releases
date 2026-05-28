@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.428-rc.280526-2125 · 2026-05-28
+
 ## v0.427-rc.280526-1734 · 2026-05-28
 - Add: Album artwork in the single-track tag editor — shows the current album art thumbnail with a "Change" button to upload a new image, which is embedded directly into the source file
 - Add: Sort tags (ARTISTSORT, ALBUMSORT, ALBUMARTISTSORT, TITLESORT) to the tag editor, collapsed under a "Sort Fields" toggle — written to source files for all formats (FLAC, MP3, M4A, WAV)
