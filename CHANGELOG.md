@@ -4,6 +4,13 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.427-rc.280526-1734 · 2026-05-28
+- Add: Album artwork in the single-track tag editor — shows the current album art thumbnail with a "Change" button to upload a new image, which is embedded directly into the source file
+- Add: Sort tags (ARTISTSORT, ALBUMSORT, ALBUMARTISTSORT, TITLESORT) to the tag editor, collapsed under a "Sort Fields" toggle — written to source files for all formats (FLAC, MP3, M4A, WAV)
+- Add: Clear/remove tag fields by leaving them empty in the editor — sends null to explicitly delete the tag frame from the file (all fields except Title)
+- Change: Track tag editor now accepts arbitrary track selections for batch editing — previously required all selected tracks to share the same album and artist
+- Fix: FLAC tag clear (remove) now correctly deletes the tag frame from the file — was failing silently due to a VorbisComment API incompatibility
+
 ## v0.426-rc.280526-1257 · 2026-05-28
 
 ## v0.425-rc.270526-1356 · 2026-05-27
