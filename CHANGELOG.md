@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.426-rc.280526-1257 · 2026-05-28
+
 ## v0.425-rc.270526-1356 · 2026-05-27
 - Fix: Enabling Autoplay now automatically turns off Repeat, preventing the album-restart bug where Repeat All would loop the queue instead of handing off to Autoplay
 - Fix: Autoplay button shows a dimmed "conflicted" state when Repeat is on, with tooltip "Autoplay paused — Repeat is on"
