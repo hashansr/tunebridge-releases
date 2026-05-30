@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.437-rc.300526-1349 · 2026-05-30
+- Fix: Audio output now follows the macOS system default device when set to "Auto". Previously, switching the output via the macOS menu bar had no effect — mpv kept streaming to the device it opened with. A background watcher now detects system default changes and reinitialises the player automatically, resuming playback on the new device.
+- Change: Playlist cover art is now copied both next to the .m3u file and to the Pictures/ folder on the device, so DAP apps that look for art alongside the playlist (Poweramp, Hiby, etc.) pick it up correctly. Applies on every export, device copy, and sync.
+
 ## v0.436-rc.290526-1235 · 2026-05-29
 
 ## v0.435-rc.290526-0823 · 2026-05-29
