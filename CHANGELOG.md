@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.438-rc.300526-1550 · 2026-05-30
+- Fix: Auto audio output now reliably resumes playback on the new device after switching — the watcher previously used an unreliable seek method; it now uses the same loadfile+start= approach as normal playback
+- Fix: Device switch notification now appears even when the player is idle (not playing)
+- Add: Toast notification when macOS system audio device changes while TuneBridge is on "Auto" output — shows the name of the device that was activated
+- Add: Output popover shows the resolved physical device in parentheses when "Auto" is active (e.g. "Auto (BuiltInSpeakerDevice)")
+
 ## v0.437-rc.300526-1349 · 2026-05-30
 - Fix: Audio output now follows the macOS system default device when set to "Auto". Previously, switching the output via the macOS menu bar had no effect — mpv kept streaming to the device it opened with. A background watcher now detects system default changes and reinitialises the player automatically, resuming playback on the new device.
 - Change: Playlist cover art is now copied both next to the .m3u file and to the Pictures/ folder on the device, so DAP apps that look for art alongside the playlist (Poweramp, Hiby, etc.) pick it up correctly. Applies on every export, device copy, and sync.
