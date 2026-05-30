@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.442-rc.310526-0949 · 2026-05-31
+
 ## v0.441-rc.310526-0920 · 2026-05-31
 - Fix: Switching the macOS audio output mid-song (plugging in headphones or changing via system settings) now seamlessly resumes playback on the new device from the same position — no pause, no restarting from the beginning
 
