@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.444-rc.310526-1005 · 2026-05-31
+
 ## v0.443-rc.310526-1003 · 2026-05-31
 - Fix: Audio output switching no longer kills active playback — the watcher now detects when CoreAudio has already rerouted audio to the new device and skips the unnecessary mpv reinit that caused the brief-playback-then-pause symptom
 - Add: Device-switch diagnostic log available at GET /api/player/dsw_log — captures the full event sequence (device change, mpv state, branch taken, resume) for debugging audio routing issues

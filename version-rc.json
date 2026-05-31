@@ -1,7 +1,7 @@
 {
-  "version": "0.443",
-  "version_full": "0.443-rc.310526-1004",
-  "build": 443,
+  "version": "0.444",
+  "version_full": "0.444-rc.310526-1005",
+  "build": 444,
   "channel": "rc",
   "released": "2026-05-31"
 }
