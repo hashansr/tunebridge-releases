@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.454 · 2026-06-03
+
 ## v0.453-rc.310526-1635 · 2026-05-31
 - Change: IEM compare limited to exactly 2 IEMs; non-selectable cards dim once both slots are filled
 - Fix: FR comparison graph no longer appears squashed — dialog widened from 680px to 920px giving a proper 2:1 aspect ratio
