@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.456-dev.060626+3d5aeda · 2026-06-06
+- Change: File Organisation moved from three Settings modals to its own dedicated page with Templates / Organise Library / Import Songs tabs
+- Add: Safety validation warns when a template would produce path segments starting with "." (hidden files on macOS/Linux) — shown as a live warning in the template editor, an amber banner in the preview step, a per-row "⚠ hidden" badge, and a disabled Apply button until the template is fixed
+
 ## v0.455-rc.050626-1619 · 2026-06-05
 
 ## v0.454 · 2026-06-03
