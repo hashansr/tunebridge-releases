@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.458-dev.100626+4a65c2c · 2026-06-10
+- Change: File Organisation view replaced with a 5-step guided wizard (Task → Source → Structure → Preview → Apply) — replaces the previous tab-based layout
+- Add: Structure step includes an inline pattern editor with atomic field chips (Album Artist, Artist, Album, Title, Track #, Disc #, Year, Genre), separator buttons, and a live path preview showing how files will be named
+- Add: Stepper header shows progress across all 5 steps with clickable back-navigation to visited steps
+- Add: Wizard footer is persistent and always visible above the player bar, showing the active structure name and a context-sensitive Next/Apply button
+
 ## v0.457-dev.090626+4a65c2c · 2026-06-09
 
 ## v0.456-dev.060626+3d5aeda · 2026-06-06

@@ -1,7 +1,7 @@
 {
-  "version": "0.457",
-  "version_full": "0.457-dev.090626+4a65c2c",
-  "build": 457,
+  "version": "0.458",
+  "version_full": "0.458-dev.100626+4a65c2c",
+  "build": 458,
   "channel": "dev",
-  "released": "2026-06-09"
+  "released": "2026-06-10"
 }
