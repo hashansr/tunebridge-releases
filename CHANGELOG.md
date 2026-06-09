@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.459-dev.100626+4a65c2c · 2026-06-10
+
 ## v0.458-dev.100626+4a65c2c · 2026-06-10
 - Change: File Organisation view replaced with a 5-step guided wizard (Task → Source → Structure → Preview → Apply) — replaces the previous tab-based layout
 - Add: Structure step includes an inline pattern editor with atomic field chips (Album Artist, Artist, Album, Title, Track #, Disc #, Year, Genre), separator buttons, and a live path preview showing how files will be named
