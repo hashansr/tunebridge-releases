@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.480-rc.190626-1702 · 2026-06-19
+
 ## v0.479-rc.190626-1648 · 2026-06-19
 - Fix: Resolve Playlist now shows track name, artist, album and artwork for missing tracks; previously showed "Unknown Track" when metadata was unavailable
 - Fix: Library rescan now records removed tracks so Resolve Playlist can identify them in future sessions
