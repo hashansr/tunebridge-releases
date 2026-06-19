@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.482-rc.190626-1722 · 2026-06-19
+
 ## v0.481-rc.190626-1712 · 2026-06-19
 - Add: Export Library Catalogue — Settings > Library now has an "Export CSV…" button that lets you choose which columns to include (Title, Artist, Album, Year, Format, Bit Depth, Sample Rate, Bitrate, Genre, Duration, Date Added, and more) and saves a UTF-8 CSV spreadsheet via the native macOS Save dialog (or browser download in dev mode)
 
