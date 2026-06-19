@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.478-rc.190626-1618 · 2026-06-19
+
 ## v0.477-rc.190626-1600 · 2026-06-19
 - Add: Resolve Playlist — right-click any playlist to surface missing tracks (IDs no longer in library), see suggested replacements matched by title/artist/album (edition tags like Remastered/Deluxe ignored), and apply replacements or removals in one step
 
