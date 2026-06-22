@@ -4,6 +4,10 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.506-rc.220626-2153 · 2026-06-22
+- Add: Rockbox DAP PEQ copy — converts APO filters to Rockbox `.cfg` format (integer-encoded freq/Q/gain, `eq peak filter` syntax) and saves to `/.rockbox/eqs/` on the device; unsupported filter types (LPQ, HPQ, etc.) are reported as skipped in the confirmation message
+- Add: Rockbox model preset now auto-fills the PEQ folder to `<mount>/.rockbox/eqs` when selected in the DAP modal
+
 ## v0.505-rc.220626-2134 · 2026-06-22
 
 ## v0.504-rc.220626-2126 · 2026-06-22
