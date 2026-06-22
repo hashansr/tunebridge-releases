@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.505-rc.220626-2134 · 2026-06-22
+
 ## v0.504-rc.220626-2126 · 2026-06-22
 - Add: Sync > Playlists — checking a playlist now auto-selects its missing songs in "New Songs"; unchecking removes them (unless manually chosen); playlist rows show "N songs not on device" count; auto-added songs show a "via playlist" badge
 
