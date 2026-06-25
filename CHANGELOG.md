@@ -4,6 +4,9 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.522-rc.250626-2221 · 2026-06-25
+- Add: Cover Flow album browser -- enable in Settings > App to replace the albums grid with a classic 3D carousel with reflections, glow, and smooth navigation; supports keyboard arrows, mouse wheel, and scrubber
+
 ## v0.521-rc.250626-2155 · 2026-06-25
 
 ## v0.520-rc.250626-2118 · 2026-06-25
