@@ -4,6 +4,12 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.533-rc.260626-1354 · 2026-06-26
+- Fix: Artist detail now has its own independent grid/list layout preference, separate from the main Albums view
+- Fix: Cover Flow button no longer appears in Artist detail — it is only available on the main Albums screen
+- Fix: Albums no longer go blank in Artist detail when Cover Flow was the active mode on the Albums screen
+- Fix: Album cover placeholder is now a small centred icon instead of a full-size fill
+
 ## v0.532-rc.260626-1349 · 2026-06-26
 - Fix: Albums search no longer loses focus or drops spaces while typing in Cover Flow mode
 - Fix: No-results empty state now hides the Cover Flow carousel correctly when search yields no matches
