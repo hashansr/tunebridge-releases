@@ -4,6 +4,8 @@
 <!-- Claude Code: add entries here as changes are made during development -->
 <!-- Format: `- Fix:` / `- Add:` / `- Change:` / `- Remove:` -->
 
+## v0.534-rc.260626-1358 · 2026-06-26
+
 ## v0.533-rc.260626-1354 · 2026-06-26
 - Fix: Artist detail now has its own independent grid/list layout preference, separate from the main Albums view
 - Fix: Cover Flow button no longer appears in Artist detail — it is only available on the main Albums screen
