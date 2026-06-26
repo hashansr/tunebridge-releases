@@ -22,7 +22,7 @@ TuneBridge is a local music manager for macOS built for people who care about th
 - **Browse** your LOCAL music library by artist, album, and track with album art
 - **Sync music** bidirectionally between your Mac and a DAP or SD card
 - **Build playlists** with drag and drop track ordering
-- **Export playlists** to portable audio players (FiiO, Hiby, AP80, and more)
+- **Export playlists** to portable audio players (FiiO, Hiby, Hidiz,Rockbox iPods and more)
 - **Play music** in-app with crossfade, shuffle, repeat, and a parametric EQ (PEQ)
 - **Analyse your library** with Insights: tag health, sonic profiles, and IEM to Music pairing
 - **Manage headphones & IEMs**: import frequency response measurements from squig.link and overlay PEQ profiles, compare and understand your music gear better. 
